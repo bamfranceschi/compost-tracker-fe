@@ -1,12 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import CompostBinCard from './components/CompostBinCard'
+import WeatherWidget from "./components/WeatherWidget"
 
 export default function App() {
+
+  const [bins, setBins] = useState([])
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <View>
+        <Text>Map function here to iterate over available bins</Text>
+      </View>
+      <WeatherWidget/>
     </View>
   );
 }
