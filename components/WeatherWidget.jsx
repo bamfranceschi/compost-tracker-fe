@@ -1,10 +1,14 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Text, View } from 'react-native';
 
-function WeatherWidget(){
+
+function WeatherWidget({weatherData}){
+    
+
     return(
         <View>
-            <Text>weather widget here</Text>
+            <Text>Weather widget here</Text>
+            {/* <Text>{weatherData.data.name}</Text> */}
         </View>
     )
 }
