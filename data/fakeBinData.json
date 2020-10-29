@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bin one",
+    "turnSchedule": "weekly",
+    "temps": [97, 108, 101, 120, 99, 147, 130, 155, 148, 163],
+    "materials": ["cardboard", "grass", "peat moss", "kitchen waste", "leaves"],
+    "turnDates": ["10/01/2020", "10/09/2020", "10/16/2020", "10/23/2020"]
+  },
+  {
+    "name": "bin two",
+    "turnSchedule": "weekly",
+    "temps": [136, 98, 142, 111, 124, 172, 147, 126, 99, 141],
+    "materials": [
+      "cardboard",
+      "egg shells",
+      "peat moss",
+      "kitchen waste",
+      "branches"
+    ],
+    "turnDates": ["10/01/2020", "10/09/2020", "10/16/2020", "10/23/2020"]
+  }
+]
